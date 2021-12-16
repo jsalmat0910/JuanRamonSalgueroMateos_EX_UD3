@@ -9,7 +9,9 @@ public class ventanaNuevo extends javax.swing.JFrame
     
     private ventanaPrincipal v;
     
-   
+   /**
+    * CrearPartido
+    */
     public ventanaNuevo() 
     {
         initComponents();
@@ -69,7 +71,10 @@ public class ventanaNuevo extends javax.swing.JFrame
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    /**
+     * 
+     * @param AñadePartido
+     */
     public void agregarPartido(String p)
     {
         v.agregarPartido(p);

@@ -11,7 +11,9 @@ import javax.swing.WindowConstants;
 
 public class ventanaPrincipal extends javax.swing.JFrame {
 
-   
+   /**
+    * Apuestas
+    */
     public ventanaPrincipal() 
     {
         initComponents();
@@ -140,7 +142,12 @@ public class ventanaPrincipal extends javax.swing.JFrame {
         this.listaResultados.setModel(modelovacio);
     }//GEN-LAST:event_bResetearActionPerformed
 
-   
+   /**
+    * 
+    * @param n1
+    * @param n2
+    * @return Cualquiera
+    */
     public int aleatorioEntreDosNumeros(int n1, int n2)
     {
         return (int)Math.floor((Math.random()*(n2-n1+1) + n1));
@@ -172,7 +179,10 @@ public class ventanaPrincipal extends javax.swing.JFrame {
         this.listaResultados.setModel(modeloquinielaresuelta);
     }//GEN-LAST:event_bRealizarActionPerformed
 
-    
+    /**
+     * 
+     * @param partidoNuevo
+     */
     public void agregarPartido(String partido)
     {
         DefaultListModel modelonuevo = new DefaultListModel();
@@ -186,7 +196,10 @@ public class ventanaPrincipal extends javax.swing.JFrame {
         this.listaQuiniela.setModel(modelonuevo);
     }
     
-  
+     /**
+      * 
+      * @param borrarPartido
+      */
     public void eliminarPartido(int indice)
     {
         DefaultListModel modelonuevoquiniela = new DefaultListModel();

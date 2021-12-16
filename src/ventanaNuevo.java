@@ -28,7 +28,7 @@ public class ventanaNuevo extends javax.swing.JFrame
     
     }
     
-   public class CrearPartido {
+   public class CrearPartida {
     
     }
     @SuppressWarnings("unchecked")

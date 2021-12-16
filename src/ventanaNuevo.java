@@ -73,7 +73,7 @@ public class ventanaNuevo extends javax.swing.JFrame
     }// </editor-fold>//GEN-END:initComponents
     /**
      * 
-     * @param AñadePartido
+     * @param p AñadePartido
      */
     public void agregarPartido(String p)
     {

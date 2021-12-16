@@ -144,8 +144,8 @@ public class ventanaPrincipal extends javax.swing.JFrame {
 
    /**
     * 
-    * @param n1
-    * @param n2
+    * @param n1 cualquiera
+    * @param n2 Cualquiera
     * @return Cualquiera
     */
     public int aleatorioEntreDosNumeros(int n1, int n2)
@@ -181,7 +181,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
 
     /**
      * 
-     * @param partidoNuevo
+     * @param partido agregarPartido
      */
     public void agregarPartido(String partido)
     {
@@ -198,7 +198,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
     
      /**
       * 
-      * @param borrarPartido
+      * @param indice   BorrarPartido
       */
     public void eliminarPartido(int indice)
     {

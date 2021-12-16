@@ -24,7 +24,13 @@ public class ventanaNuevo extends javax.swing.JFrame
         v = ventana;
     }
     
-   
+    public class apuesta {
+    
+    }
+    
+   public class CrearPartido {
+    
+    }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {

@@ -8,6 +8,6 @@
  *
  * @author usuario
  */
-public class apuesta {
+public class CrearPartido {
     
 }
